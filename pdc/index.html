@@ -8,34 +8,51 @@
 </head>
     <body>
         <header>
-            <h1>Proyecto Millonario</h1>
+            <div class=" nav-bg">
+                <a href="/pdc/index.html">Inicio</a>
+                <a href="/ProyectoNuevo/pag2/video.html">Videos</a>
+                <a href="/ProyectoNuevo/Tarea.html">Imagenes</a>
+                <a href="/ProyectoNuevo/Precios.html">Precios</a>
+            </div>
+        <h1>Blog Html Basico</h1>
         </header>
             <main>
-                <h2><b>Soy una lista del Super!</b></h2>
-                    <ul>
-                        <li><b>Frutas</b>
-                            <ol>
-                                <li>Manzana</li>
-                                <li>Platano</li>
-                            </ol>
-                        </li>
-                        <li><b>Carnes</b>
-                            <ol>
-                                <li>Pollo</li>
-                                <li>Carne Molida</li>
-                            </ol>
-                        </li>
-                        <li><b>Verdura</b>
-                            <ol>
-                                <li>Limon</li>
-                                <li><a href="https://es.wikipedia.org/wiki/Daucus_carota" target="_blank">Zanahoria</a></li>
-                            </ol>
-                        </li>
-
-                    </ul>
+                
+                    
             </main>
         <footer>
-            <a href="/ProyectoNuevo/Tarea.html">Version 2</a>
+            <div id="contacto" class="contacto">
+                <h2>Contacto</h2>
+                <form class="formulario" action="#" method="post">
+                    <legend><b>Contactanos llenando todos los campos</b></legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+    
+                            <input type="text" name="nombre" placeholder="Nombre" required="">
+                        </div>
+                        <div class="campo">
+                            <label>Teléfono</label>
+    
+                            <input type="tel" name="telefono" placeholder="Teléfono">
+                        </div>
+                        <div class="campo w-100">
+                            <label>Correo</label>
+    
+                            <input type="mail" name="correo" placeholder="Mail">
+                        </div>
+                        <div class="campo w-100">
+                            <label>Mensaje:</label>
+    
+                            <textarea></textarea>
+                        </div>
+                    </div>
+
+                    <div class="enviar">
+                        <input class="boton" type="submit" value="enviar">
+                    </div>
+                </form>
+            <a href="/about.html">Sobre Nosotros</a>
         </footer>
     </body>
 </html> 
