@@ -14,3 +14,12 @@
     border: 2;
     border-radius: .4rem;
 }
+p,
+.Si {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.No {
+    margin: 0.4rem;
+}
+
