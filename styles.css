@@ -8,42 +8,63 @@
     --prueba: #49aa0c;
     --cafe: #71d632
 }
-    
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(159, 72, 97);
+}
+
 .nav-bg {
     
     text-align: center;
-    
-    
-    
     list-style:none ;
     height: auto;
-   
     background-color: aquamarine;
 }
-
-.hea-d {
-    border: 1px outset green;
-        
-    text-align: center;
-    
-  }
-.for-m {
-    border: 2px outset black;;
-}
-
-/*pseudoclase y pseudoelemento desde aqui hasta content
-pseudoclase es : y pseudoelemento es ::*/
 
 .nav-bg-item a{
    
     color:black ;
-    
     text-decoration: none;
-    
     padding: 0 1rem;
     
     
 }
+/*    display: flex: Esta propiedad se utiliza para crear un contenedor de elementos flexibles, que pueden ser organizados y posicionados de manera flexible en el diseño de la página. Con display: flex, los elementos hijos de un contenedor se convierten en elementos flexibles y se pueden alinear y distribuir de diversas maneras.
+
+    flex-direction: column: Esta propiedad se utiliza para establecer la dirección principal de los elementos dentro del contenedor. Con flex-direction: column, los elementos dentro del contenedor se organizan de arriba a abajo en una columna.
+
+    justify-content: center: Esta propiedad se utiliza para alinear los elementos flexibles en el contenedor a lo largo del eje principal. Con justify-content: center, los elementos se alinean en el centro del eje principal, en este caso, en la dirección vertical (eje y) ya que estamos usando flex-direction: column.
+
+    align-items: center: Esta propiedad se utiliza para alinear los elementos flexibles en el contenedor a lo largo del eje transversal. Con align-items: center, los elementos se alinean en el centro del eje transversal, en este caso, en la dirección horizontal (eje x) ya que estamos usando flex-direction: column.
+
+En resumen, al utilizar estas cuatro propiedades juntas (display: flex, flex-direction: column, justify-content: center, y align-items: center), estamos creando un contenedor flexible que organiza los elementos dentro de él en una columna y los alinea en el centro tanto vertical como horizontalmente. Esto nos permite crear diseños flexibles y centrados en la página.*/
+.hea-d {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Altura del cuadro */
+    width: 400px; /* Ancho del cuadro */
+    border: 2px solid rgb(70, 63, 63); /* Borde del cuadro */
+    padding: 20px; /* Espacio dentro del cuadro */
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    background-color: antiquewhite;
+  }
+
+.for-m {
+    border: 2px ; ;
+    margin-top: 20px;
+    
+}
+
+/*pseudoclase y pseudoelemento 
+pseudoclase es : y pseudoelemento es ::*/
 
 .contenedor {
     margin:0 10rem;
@@ -53,8 +74,19 @@ pseudoclase es : y pseudoelemento es ::*/
 .nav-bg-item {
     font-size: 1.3rem;
     font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .nav-bg-item a:hover {
     background-color: yellow;
     
+}
+.nav-bg-item a:active {
+    color: red;
+    background-color: #49aa0c;
+}
+
+
+.uwu img {
+    width: 100px;
+    height:100px;
 }
