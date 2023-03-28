@@ -5,16 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/styles.css">
+    <link rel="icon" type="imageico" href="/ProyectoNuevo/Fotos/xd.ico" sizes="32x32">
     <title>Video</title>
 </head>
     <header>
         <div class="nav-bg">
-            <nav class="navegacion-principal">
-            <a href="/pdc/index.html">Inicio</a>
-            <a href="/ProyectoNuevo/pag2/video.html">Videos</a>
-            <a href="/ProyectoNuevo/Tarea.html">Imagenes</a>
-            <a href="/ProyectoNuevo/Precios.html">Precios</a>
-            </nav>
+            
+                <nav class="nav-bg-item contenedor" >
+                
+                    <a href="/pdc/index.html" >Inicio</a>
+                    <a href="/ProyectoNuevo/pag2/video.html" >Videos</a>
+                    <a href="/ProyectoNuevo/Tarea.html" >Imagenes</a>
+                    <a href="/ProyectoNuevo/Precios.html" >Precios</a>
+                    
+                </nav>
+                </nav>
         </div>
         <h1>Frutas y Verduras</h1>
     </header>
@@ -41,7 +46,19 @@
         </section>
         <section>
             <h3>Zanahoria</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/t5ROR4aVARE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/t5ROR4aVARE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+            
+            <br> <!--etiqueta para dar un enter en la pagina-->
+            
+            <video controls preload="auto"> 
+                <!--dentro de la etiqueta video controls y preload auto sirven para que se agreguen controles al video y cargue mas raido-->
+                <source src="/ProyectoNuevo/Video/Zanahoria- propiedades, beneficios y valor nutricional.mp4">"
+                
+                <!--source es la etiqueta que va dentro de video y con el atributo src le doy la ruta del video
+                            *puedo colocar varios source*-->
+            </video>
+
         </section>
         
     </body>

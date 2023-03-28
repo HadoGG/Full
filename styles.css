@@ -1,25 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --prueba: #49aa0c;
+    --cafe: #71d632
 }
     
 .nav-bg {
-    background-color: var(--prueba);
-}
-.campo input[type="text"],
-.campo input[type="tel"],
-.campo input[type="mail"],
-.campo textarea {
-    width: 50%;
-    padding: .4rem;
-    border: 2;
-    border-radius: .4rem;
-}
-p,
-.Si {
-    font: 1rem 'Fira Sans', sans-serif;
+    
+    text-align: center;
+    
+    
+    
+    list-style:none ;
+    height: auto;
+   
+    background-color: aquamarine;
 }
 
-.No {
-    margin: 0.4rem;
+.hea-d {
+    border: 1px outset green;
+        
+    text-align: center;
+    
+  }
+.for-m {
+    border: 2px outset black;;
 }
 
+/*pseudoclase y pseudoelemento desde aqui hasta content
+pseudoclase es : y pseudoelemento es ::*/
+
+.nav-bg-item a{
+   
+    color:black ;
+    
+    text-decoration: none;
+    
+    padding: 0 1rem;
+    
+    
+}
+
+.contenedor {
+    margin:0 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bg-item {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.nav-bg-item a:hover {
+    background-color: yellow;
+    
+}
