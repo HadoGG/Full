@@ -30,7 +30,10 @@ html {
     
     
 }
-/*    display: flex: Esta propiedad se utiliza para crear un contenedor de elementos flexibles, que pueden ser organizados y posicionados de manera flexible en el diseño de la página. Con display: flex, los elementos hijos de un contenedor se convierten en elementos flexibles y se pueden alinear y distribuir de diversas maneras.
+
+/*   -------explicaciond de lo de abajo---------
+
+display: flex: Esta propiedad se utiliza para crear un contenedor de elementos flexibles, que pueden ser organizados y posicionados de manera flexible en el diseño de la página. Con display: flex, los elementos hijos de un contenedor se convierten en elementos flexibles y se pueden alinear y distribuir de diversas maneras.
 
     flex-direction: column: Esta propiedad se utiliza para establecer la dirección principal de los elementos dentro del contenedor. Con flex-direction: column, los elementos dentro del contenedor se organizan de arriba a abajo en una columna.
 
