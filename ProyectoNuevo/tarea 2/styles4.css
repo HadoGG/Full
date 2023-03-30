@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 62.5%;
+}
+body{
+    font-size: 2rem}
+
+.nav-1 {
+    background-color: #13a4a4;
+    display: flex;
+    justify-content: end;
+    padding-bottom: 4rem;}
+    
+.nav-1 a{
+position:absolute;
+right: 99%;
+width: 3px;
+height: 3px;
+}
+.nav-1 img{
+    width: 60px;
+    height: 60px;
+}
+
+
+.nav-1 li {
+    display: inline-block;
+    padding: 0 10px;
+    color: white;
+    
+}
+
+.main-1{
+    
+    height: 90rem;
+    background-color: lightcoral
+}
+
+.main-1 .m1{
+    position:absolute;
+    min-width: 89.5% ;
+    min-height: 95%;
+    left: 200px;
+    box-sizing: border-box;
+    box-sizing: content-box;
+    background-color: gray;
+    
+}
+.main-1 .m2 {
+    position: absolute;
+    min-width: 180px ;
+    min-height: 150px;
+    border-radius: 10px;
+    
+    
+    
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 40px;
+    background-color:peachpuff ;
+}
+
+.main-1 .m3 {
+    position: absolute;
+    min-width: 180px ;
+    min-height: 150px;
+    border-radius: 10px;
+    
+    
+    
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 240px;
+    background-color:peachpuff ;
+}
+.main-1 .m4 {
+    position: absolute;
+    min-width: 180px ;
+    min-height: 150px;
+    border-radius: 10px;
+    
+    
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 440px;
+    background-color:peachpuff ;
+}
+.main-1 .m5 {
+    position: absolute;
+    min-width: 180px ;
+    min-height: 150px;
+    border-radius: 10px;
+    
+    
+    
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 640px;
+ background-color:peachpuff ;
+}
+
+
+
+.foot{
+    background-color: rebeccapurple;
+    position: absolute;
+    min-width: 100%;
+    text-align: center;
+    
+    
+}

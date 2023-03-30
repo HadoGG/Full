@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 62.5%; /*con esto le digo que mi fuente sea del 62.5% del tamaño estandar de mi navegador*/
+
+}   
+body{
+    font-size: 1.8rem} /*con esto le digo el tamaño de la funte sea de 18px en rem*/
+
+.two {
+    background-color: grey;
+
+    min-width: 10px; /*el minimo tamaño de la caja que contiene el texto*/
+    max-width: 500px; /*el maximo tamaño de la caja que contiene el texto*/
+
+    margin-top:40px; /*la cantidad de espacio entre el top del margen y la caja que contiene el texto*/
+    border-radius: 50px;/*le doy un borde a los intersecciones de las aristas de mi borde osea a los vertices del borde*/
+    border-style: solid; /*con esto le digo que el borde sea solido para ser visible*/
+
+    padding: 50px; /*con esto le doy espacio dentro de la caja entre los bordes y el texto*/
+    text-align: center;/*con esto centro el texto*/
+}
+
+.one {
+    background-color: red;
+
+    min-width: 10px;
+    max-width: 160px;
+
+    position:absolute; /*con esto le digo que su posicion sea sobre sus hermanos osea que se posicione y visualize arriba del todo*/
+    top:15px;/*con este hago lo mismo que el margin top*/
+    border-radius: 20px;
+    border-style: solid;      
+    text-align: center;
+    padding: 15px;/*con esto le doy espacio dentro de la caja entre los bordes y el texto*/
+
+}
+
+.parent {
+    display: flex; /*con le digo que los elementos dentro de esta clase sean flexibles osea se puedan mover libremente*/
+    justify-content: center; /*con esto le digo que los elementos van a ir al centro de la pagiona*/
+}
+
+
