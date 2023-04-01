@@ -1,117 +1,122 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-
 html{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 body{
-    font-size: 2rem}
-
-.nav-1 {
-    background-color: #13a4a4;
-    display: flex;
-    justify-content: end;
-    padding-bottom: 4rem;}
-    
-.nav-1 a{
-position:absolute;
-right: 99%;
-width: 3px;
-height: 3px;
+  font-size: 1.6rem;
 }
-.nav-1 img{
-    width: 60px;
-    height: 60px;
+header {
+  
+  background-color: aquamarine;
+  height: 5vh;
+ 
 }
 
-
-.nav-1 li {
-    display: inline-block;
-    padding: 0 10px;
-    color: white;
-    
+nav {
+ text-align: end;
 }
 
-.main-1{
-    
-    height: 90rem;
-    background-color: lightcoral
+li{
+  display: inline-block;
+  padding: 0.5em;
+  font-size: 2rem;
+  margin-top: 0.2vh;
+  margin-bottom: 4px;
+  margin-right: 1vh;
+  
+  
+}
+li a {
+  text-decoration: none;
+  
+  
 }
 
-.main-1 .m1{
-    position:absolute;
-    min-width: 89.5% ;
-    min-height: 95%;
-    left: 200px;
-    box-sizing: border-box;
-    box-sizing: content-box;
-    background-color: gray;
-    
+
+figure{
+  position: absolute;
+  display: inline-block;
+  left: 1rem;
+  
 }
-.main-1 .m2 {
-    position: absolute;
-    min-width: 180px ;
-    min-height: 150px;
-    border-radius: 10px;
-    
-    
-    
-    margin-left: 10px;
-    display: inline-block;
-    margin-top: 40px;
-    background-color:peachpuff ;
+img {
+  width: 4vw;
+  height: 5vh;
+  
 }
 
-.main-1 .m3 {
-    position: absolute;
-    min-width: 180px ;
-    min-height: 150px;
-    border-radius: 10px;
-    
-    
-    
-    margin-left: 10px;
-    display: inline-block;
-    margin-top: 240px;
-    background-color:peachpuff ;
+
+main{
+  height: 90vh;
 }
-.main-1 .m4 {
-    position: absolute;
-    min-width: 180px ;
-    min-height: 150px;
-    border-radius: 10px;
-    
-    
-    margin-left: 10px;
-    display: inline-block;
-    margin-top: 440px;
-    background-color:peachpuff ;
+
+main section {
+  display: inline-block;
+  height: 90vh;
+  width: 20vw;
+  background-color: rgb(30, 49, 194)
 }
-.main-1 .m5 {
-    position: absolute;
-    min-width: 180px ;
-    min-height: 150px;
-    border-radius: 10px;
-    
-    
-    
-    margin-left: 10px;
-    display: inline-block;
-    margin-top: 640px;
- background-color:peachpuff ;
+
+.main .section div{
+  
+  background-color: rgb(7, 136, 148);
+  height: 15vh;
+  margin: 6vh 3vh;
+  
+
+}
+
+.cont {
+  position: absolute;
+  left: 20vw;
+  width: 80vw;
+  padding: 2rem ;
+  background-color: rgb(7, 115, 187);
+  
 }
 
 
 
-.foot{
-    background-color: rebeccapurple;
-    position: absolute;
-    min-width: 100%;
-    text-align: center;
-    
-    
+
+footer a{
+ text-decoration: none;
+ 
 }
+footer {
+  background-color: aquamarine;
+  height: 5vh;
+  width: 100vw;
+  
+}
+.sm{
+  margin-left: 1rem;
+}
+.au{
+  position: absolute;
+  right: 1rem;
+ 
+  
+}
+footer div{
+  display: inline-block;
+  margin-top: 1.5vh;
+  border-radius: 5px;
+  border: 1px;
+  border-style: solid;
+  padding: 0.35vh 2px;
+  
+}
+
+footer :hover{
+  background-color: rgb(220, 224, 224)
+}
+footer a{
+  color: black
+  
+}
+
+  
